@@ -7,20 +7,20 @@ app.use(morgan('combined'));
 
 var articles = {
     'articleone': {
-    title :'Article One | sri ',
-    heading : 'Article one',
-    date : 'August 14 2017',
-    content : `
-             <p>
-                    This is new content for article one html page,This is new content for article one html page,This is new content for article one html page,
-            </p>
-            
-            <p>This is new content for article one html page,This is new content for article one html page,This is new content for article one html page
-            </p>
-            
-            <p>
-                    This is new content for article one html page,This is new content for article one html page,This is new content for article one html page, 
-            </p>`
+            title :'Article One | sri ',
+            heading : 'Article one',
+            date : 'August 14 2017',
+            content : `
+                     <p>
+                            This is new content for article one html page,This is new content for article one html page,This is new content for article one html page,
+                    </p>
+                    
+                    <p>This is new content for article one html page,This is new content for article one html page,This is new content for article one html page
+                    </p>
+                    
+                    <p>
+                            This is new content for article one html page,This is new content for article one html page,This is new content for article one html page, 
+                    </p>`
     },
     'articletwo': {
         title :'Article Two | sri ',
@@ -36,7 +36,7 @@ var articles = {
                 
                 <p>
                         This is new content for article one html page,This is new content for article one html page,This is new content for article one html page, 
-                </p>`
+                </p> `
     },
     'articlethree': {
         title :'Article Three | sri ',
@@ -52,7 +52,7 @@ var articles = {
                 
                 <p>
                         This is new content for article one html page,This is new content for article one html page,This is new content for article one html page, 
-                </p>`
+                </p> `
     }
 };    
      
